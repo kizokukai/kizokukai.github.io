@@ -1,0 +1,8 @@
+{
+  "name": "kizokukai.github.io",
+  "version": "1.0.0",
+  "description": "of kizoku, by kizoku, for kizoku",
+  "scripts": {
+    "complie": "node-sass css/index.scss css/index.css && sed -i -e '1,2d' css/index.css"
+  }
+}
